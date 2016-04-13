@@ -1,0 +1,29 @@
+{
+  "name": "cordova-localstorage-collection",
+  "version": "1.0.0",
+  "description": "A collection object for key-value pairs that stores its data to LocalStorage in the context of a Cordova App.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc LsCollection.ts --outFile index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "help": "tsc --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twainj/cordova-localstorage-collection.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "localstorage"
+  ],
+  "author": "TwainJ <jason@2jdevelopment.com> (twainj.software)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twainj/cordova-localstorage-collection/issues"
+  },
+  "homepage": "https://github.com/twainj/cordova-localstorage-collection#readme",
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  }
+}
