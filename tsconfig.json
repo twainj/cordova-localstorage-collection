@@ -10,6 +10,6 @@
         "node_modules"
     ],
     "files": [
-        "LsCollection.ts"
+        "index.ts"
     ]
 }

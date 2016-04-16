@@ -2,7 +2,7 @@
   "name": "cordova-localstorage-collection",
   "version": "1.0.0",
   "description": "A collection object for key-value pairs that stores its data to LocalStorage in the context of a Cordova App.",
-  "main": "LsCollection.js",
+  "main": "index.js",
   "scripts": {
     "build": "tsc ",
     "test": "echo \"Error: no test specified\" && exit 1"

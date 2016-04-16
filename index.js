@@ -1,4 +1,3 @@
-"use strict";
 var LsCollection = (function () {
     function LsCollection(id) {
         var _this = this;
@@ -76,5 +75,3 @@ var LsCollection = (function () {
     };
     return LsCollection;
 }());
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = LsCollection;

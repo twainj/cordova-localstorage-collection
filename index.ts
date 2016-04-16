@@ -1,5 +1,5 @@
 
-export default class LsCollection<T> {
+class LsCollection<T> implements EventListenerObject {
     constructor(id: string) {
         this._lsId = id;
         this._col = {};
@@ -76,3 +76,6 @@ export default class LsCollection<T> {
 
 }
 
+declare module 'cordova-localstorage-collection' {
+    export = LsCollection;
+}

@@ -1,4 +1,4 @@
-export default class LsCollection<T> {
+declare class LsCollection<T> implements EventListenerObject {
     constructor(id: string);
     Dispose(): void;
     private _col;
@@ -17,4 +17,7 @@ export default class LsCollection<T> {
     handleEvent(ev: Event): void;
     private onAppPause();
     private onAppResume();
+}
+declare module 'cordova-localstorage-collection' {
+    export = LsCollection;
 }
